@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    password: Morsko11
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+  jpa:
+    show-sql: true
+    generate-ddl: true
+
